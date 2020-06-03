@@ -1,0 +1,47 @@
+  #This is a project made on Codepen.io (some tags are not allowed to use there)
+
+<h1 id="title">Survey Form</h1>
+<p id="description">Let us know how we can improve our services</p>
+<form id="survey-form" >
+  <label id="name-label">Name: </label>
+  <input id="name" name="Enter Your Name" type="text" placeholder="Enter your name" required></br>
+<label id="email-label">Email: </label>
+<input id="email" type="email" placeholder="Enter your email" required></br>
+<label id="number-label">Age: </label>
+<input id="number" type="number" required placeholder="Age" min="10" max="100"></br>
+Which option best describe your current role? <select id="dropdown">
+  <option>Select your choice</option>
+  <option>Student</option>
+  <option>Professional</option>
+  <option>Freelancer</option>
+  <option>Other</option>
+</select></br>
+How likely is that you would recommend our services to a friend?
+<input type="radio" value="definite" name="recommend"> Definitely </br>
+<input type="radio" value="maybe" name="recommend"> Maybe </br>
+<input type="radio" value="notsure"name="recommend"> Not sure </br>
+What do you like most about us?
+<select id="dropdown">
+  <option>Select your choice</option>
+  <option>Challenges</option>
+  <option>Goodies</option>
+  <option>Community</option>
+  <option>Other</option>
+</select></br>
+Things that should be improved in the future
+(Check all that apply):
+<input type="checkbox" value="front-end">Front-end Projects</br>
+<input type="checkbox" value="back-end">Back-end Projects</br>
+<input type="checkbox" value="data-visualization">Data Visualization</br>
+<input type="checkbox" value="challenges">Challenges</br>
+<input type="checkbox" value="open-source">Open Source Community</br>
+<input type="checkbox" value="gitter">Gitter help rooms</br>
+<input type="checkbox" value="video">Videos</br>
+<input type="checkbox" value="meetups">City Meetups</br>
+<input type="checkbox" value="wiki">Wiki</br>
+<input type="checkbox" value="forum">Forum</br>
+<input type="checkbox" value="additional course">Additional Courses</br>
+<label>Any comments or suggestions?</label>
+<textarea rows="5" cols="100" placeholder="Comment Here"></textarea></br>
+<button id="submit" type="submit">Submit</button>
+</form>
