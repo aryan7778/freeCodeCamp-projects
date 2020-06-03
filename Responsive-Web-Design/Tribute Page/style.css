@@ -1,0 +1,63 @@
+	.container .content {
+		text-align: center;
+	}
+	h1, h3, p {
+		text-align: center;
+	}
+	.container{
+		background-color: #EEEEEE;
+		margin-top: 50px;
+		margin-bottom: 70px;
+		padding: 0 70px 50px 70px;
+
+	}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+	
+}
+	.image {
+		background: white;
+		padding-bottom: 10px;
+    }
+	p {
+		padding-top: 10px;
+	}
+	ul {
+		font-size: 20px;
+	}
+ #one {
+ 	text-align: left;
+ 	margin: 10px 200px;
+ }
+ div ul {
+ 	position: relative;
+ 	right: 200px;
+ 	font-size: 25px;
+ 	margin-top: 20px;
+
+ }
+ blockquote {
+ 	font-size: 20px;
+ 	position: relative;
+ 	right: 30px;
+ }
+ cite {
+ 	color: rgba(0, 0, 0, 0.5);
+ 	font-size: 15px;
+ 	
+ }
+ #two {
+ 	display: inline;
+ 	position: relative;
+ 	right: 30px;
+ }
+footer	{
+		padding: 0 90px 50px 90px;
+		font-size: 15px;
+
+}
